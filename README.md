@@ -6,9 +6,9 @@
 
 ## Installation
 To apply this theme you need to:
-1. Create `themes/` folder in yours ghostty configuration root directory (`$XDG_CONFIG_HOME/ghostty/`)
-2. Move `posterpole.conf` file in this folder
-3. Add in `$XDG_CONFIG_HOME/ghostty/config` file this line:
+1. Create a `themes/` folder in your ghostty configuration root directory (`~/.config/ghostty/`)
+2. Create a file named `posterpole` and copy the contents of `posterpole.conf` into it 
+3. Add the following line into your `~/.config/ghostty/config` file:
 ```conf
 theme = posterpole
 ```
